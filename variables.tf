@@ -13,3 +13,6 @@ variable "mq_username" {
 variable "mq_password" {
   sensitive = true
 }
+variable "domain" {
+  default = "challenge.dev.br"
+}
